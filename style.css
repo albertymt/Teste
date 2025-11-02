@@ -1,0 +1,81 @@
+body {
+        font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #00b4d8, #90e0ef);
+                display: flex;
+                    justify-content: center;
+                        align-items: center;
+                            height: 100vh;
+                                margin: 0;
+                                }
+
+                                form {
+                                    background-color: #fff;
+                                        padding: 30px;
+                                            border-radius: 20px;
+                                                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                                                    width: 100%;
+                                                        max-width: 400px;
+                                                        }
+
+                                                        h1 {
+                                                            text-align: center;
+                                                                color: #0077b6;
+                                                                }
+
+                                                                label {
+                                                                    font-weight: bold;
+                                                                        color: #333;
+                                                                        }
+
+                                                                        input, select, textarea {
+                                                                            width: 100%;
+                                                                                padding: 8px;
+                                                                                    margin-top: 5px;
+                                                                                        margin-bottom: 15px;
+                                                                                            border: 1px solid #ccc;
+                                                                                                border-radius: 8px;
+                                                                                                    font-size: 14px;
+                                                                                                    }
+
+                                                                                                    textarea {
+                                                                                                        resize: none;
+                                                                                                        }
+
+                                                                                                        input[type="radio"],
+                                                                                                        input[type="checkbox"] {
+                                                                                                            width: auto;
+                                                                                                                margin-right: 5px;
+                                                                                                                }
+
+                                                                                                                button {
+                                                                                                                    width: 48%;
+                                                                                                                        padding: 10px;
+                                                                                                                            font-size: 15px;
+                                                                                                                                border: none;
+                                                                                                                                    border-radius: 8px;
+                                                                                                                                        cursor: pointer;
+                                                                                                                                            transition: 0.3s;
+                                                                                                                                            }
+
+                                                                                                                                            button[type="submit"] {
+                                                                                                                                                background-color: #0077b6;
+                                                                                                                                                    color: white;
+                                                                                                                                                    }
+
+                                                                                                                                                    button[type="submit"]:hover {
+                                                                                                                                                        background-color: #023e8a;
+                                                                                                                                                        }
+
+                                                                                                                                                        button[type="reset"] {
+                                                                                                                                                            background-color: #adb5bd;
+                                                                                                                                                                color: white;
+                                                                                                                                                                }
+
+                                                                                                                                                                button[type="reset"]:hover {
+                                                                                                                                                                    background-color: #6c757d;
+                                                                                                                                                                    }
+
+                                                                                                                                                                    .botoes {
+                                                                                                                                                                        display: flex;
+                                                                                                                                                                            justify-content: space-between;
+                                                                                                                                                                            }
